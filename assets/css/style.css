@@ -1,20 +1,7 @@
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-
 header {
     background-color: #ffffff;
     padding: 20px;
-    margin: 0;
-}
-
-section {
-    background-color: #ffffff;
-    width: 960px; 
-    margin: 0 auto;
+   /* margin: 0, 0, 20, 0;*/
 }
 
 body {
@@ -30,6 +17,15 @@ a {
     float: right;
 }
 
+section {
+    background-color: #ffffff;
+    width: 960px; 
+    margin: 0 auto;
+    border: .5px;
+    border-color: #777777;
+    border-style: solid;
+}
+
 
 h1 {
     background-color: #4aaaa5;
@@ -42,6 +38,9 @@ h1 {
 
 h2 {
     color: #4aaaa5;
+    background-color: #ffffff;
+    max-width: 25%;
+    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -60,26 +59,38 @@ img {
 }
 
 .centerPage {
+    clear: both;
     width: 960px; 
     margin:0 auto;
 } 
 
-.mainBox {
-    max-width: 960px;
-    margin: 10 auto;
-    color: #777777;
-    overflow: hidden;
-  }
-
 .leftColumn {
-    width: 20%%;
+    width: 25%;
     float: left;
     padding-right: .5%;
     min-height: 175px;
   }
 
   .rightColumn {
-    width: 70%;
+    padding: 20px;
+    width: 60%;
     float: left;
     min-height: 175px;
+  }
+
+ /*
+  .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+
+  */
+
+  .mainBox {
+    clear: both;
+    max-width: 960px;
+    margin: 10 auto;
+    color: #777777;
+    overflow: auto;
   }

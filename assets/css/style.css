@@ -1,6 +1,7 @@
 header {
     background-color: #ffffff;
     padding: 20px;
+    width: 100%;
 }
 
 body {
@@ -32,7 +33,6 @@ h1 {
     display: inline;
     padding: 20px 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin: 0;
 }
 
 h2 {
@@ -67,7 +67,7 @@ img {
 .centerPage {
     clear: both;
     width: 960px; 
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .leftColumn {
@@ -98,7 +98,7 @@ img {
   }
 
   form {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     color: #777777;
     padding: 10px;

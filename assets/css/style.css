@@ -1,6 +1,6 @@
 header {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     width: 100%;
 }
 
@@ -98,8 +98,23 @@ img {
   }
 
   form {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     color: #777777;
     padding: 10px;
   }
+
+  .textBoxStandard {
+      height: 20px;
+      width: 800px;
+  }
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+}

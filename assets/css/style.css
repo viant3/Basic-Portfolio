@@ -1,7 +1,6 @@
 header {
     background-color: #ffffff;
     padding: 20px;
-   /* margin: 0, 0, 20, 0;*/
 }
 
 body {
@@ -48,6 +47,13 @@ img {
     margin: 15px;
 }
 
+.mainBox {
+    max-width: 960px;
+    margin: 0 auto;
+    color: #777777;
+    overflow: auto;
+  }
+
 .imgSize img {
     display: block;
     margin: 0 auto;
@@ -78,19 +84,15 @@ img {
     min-height: 175px;
   }
 
- /*
-  .clearfix::after {
-      content: "";
-      display: block;
-      clear: both;
-  }
-
-  */
-
-  .mainBox {
+  .footer {
     clear: both;
-    max-width: 960px;
-    margin: 10 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
     color: #777777;
-    overflow: auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
   }

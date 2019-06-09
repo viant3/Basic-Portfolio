@@ -119,3 +119,28 @@ input[type=submit]{
     width: 120px;
     height: 40px;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+  }
+
+  .floatText{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px 0px;
+    width: 250px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+  }
+
+  /*.portfolioImages {
+        width: 200px;
+        float: left;
+  }*/
+

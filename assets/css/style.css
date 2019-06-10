@@ -26,6 +26,13 @@ section {
     border-style: solid;
 }
 
+hr {
+    border: 0;
+    color: #777777;
+    background: #777777;
+    width: 900px;
+    height: 1.5px;
+}
 
 h1 {
     background-color: #4aaaa5;

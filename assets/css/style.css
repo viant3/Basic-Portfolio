@@ -110,10 +110,11 @@ img {
       width: 800px;
   }
 
+  /* classes for images and text on portfolio.html below */
+
 .container {
     position: relative;
     text-align: center;
-    color: white;
     float: left;
   }
 
@@ -121,7 +122,6 @@ img {
     clear: both;
     position: relative;
     text-align: center;
-    color: white;
     float: left;
   }
 
@@ -129,7 +129,6 @@ img {
     clear: both;
     position: relative;
     text-align: center;
-    color: white;
     float: left;
     margin: 0 0 10% 0;
   }

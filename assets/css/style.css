@@ -31,7 +31,7 @@ section {
     border: .5px;
     border-color: #777777;
     border-style: solid;
-    margin-top: 5%;
+    margin-top: 5%; 
 }
 
 hr {
@@ -60,6 +60,10 @@ h2 {
 
 img {
     margin: 15px;
+}
+
+p {
+  padding: 5px;
 }
 
 .mainBox {

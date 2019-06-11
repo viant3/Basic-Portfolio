@@ -1,4 +1,7 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #ffffff;
     padding: 20px 0px 20px 0px;
     width: 100%;
@@ -17,6 +20,10 @@ a {
     float: right;
 }
 
+a:hover {
+    color: #4aaaa5;
+}
+
 section {
     background-color: #ffffff;
     width: 960px; 
@@ -24,6 +31,7 @@ section {
     border: .5px;
     border-color: #777777;
     border-style: solid;
+    margin-top: 5%;
 }
 
 hr {
@@ -86,7 +94,7 @@ img {
   }
 
   .rightColumn {
-    padding: 20px;
+    padding-left: 15px;
     width: 60%;
     float: left;
     min-height: 175px;

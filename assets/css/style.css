@@ -5,6 +5,7 @@ header {
     background-color: #ffffff;
     padding: 20px 0px 20px 0px;
     width: 100%;
+    border-bottom: .5px solid #CDD1C4;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 
 a {
     color: #777777;
-    padding: 6px;
+    padding: 8px;
     text-align: center;
     text-decoration: none;
     float: right;
@@ -38,8 +39,8 @@ section {
 
 hr {
     border: 0;
-    color: #777777;
-    background: #777777;
+    color: #CDD1C4;
+    background: #CDD1C4;
     width: 90%;
     height: 1.5px;
 }

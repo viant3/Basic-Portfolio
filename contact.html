@@ -2,42 +2,63 @@
 <html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Contact</title>
 
 </head>
 
-<body>
-
-      <header>
-            <div class="centerPage">
-                <h1>Victor Politano</h1>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="index.html">About</a>
-            </div>
-      </header>
+<body >
+ 
+      
+     
+           <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                    <div class="centerPage">
+                          <div class="row">
+                                    
+                                    <div class="col-sm-6">
+                                                <h1>Victor Politano</h1>
+                                          </div>    
+      
+                                          <div class="col-sm-6 containerNav">
+                                                <a class="a" href="contact.html">Contact</a>
+                                                <a class="a" href="portfolio.html">Portfolio</a>
+                                                <a class="a" href="index.html">About</a>
+                                           </div>
+                                     
+                          </div>                                   
+                      </div>
+            </nav>  
 
         <br>
       
       
-      <section>
-             <div class="mainBox">
+        <section class="container-fluid mainBox">
               
-                      <h2>Contact</h2>
-                      <hr>
+                  <div class="row">
+                    <div class="col"><h2>Contact</h2></div>  
+                  </div>
+    
+                          <hr>
+
                         <form method="POST" action="mailto:viant3ucf@gmail.com" enctype="text/plain">
                                 Name<br>
                                 <input type="text" name="Name" class="textBoxStandard" placeholder="John Smith"><br><br>
                                 Email<br>
                                 <input type="text" name="Email" class="textBoxStandard" placeholder="example@Gmail.com"><br><br>
                                 Message<br>
-                                    <textarea class="hideScroll" Name="Message" rows="10" cols="108" wrap="soft"></textarea><br><br>
+
+                                <div class="form-group">
+                                    <textarea class=" form-control" Name="Message" rows="6" cols="108" wrap="soft"></textarea><br><br>
                                     <input type="submit" value="Submit">
+                                </div>
+
                         </form><br>
                             
-            </div>
       </section>
 
     

@@ -18,7 +18,7 @@ float: right;
 }
 
 .a:hover {
-  color: #4aaaa5;
+  color: #800000;
 }
 
 section {
@@ -43,7 +43,7 @@ hr {
 }
 
 h1 {
-  background-color: #4aaaa5;
+  background-color: #800000;
   color: #ffffff;
   padding: 20px 10px 20px 10px;
   font-weight: 600;
@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-  color: #4aaaa5;
+  color: #800000;
   background-color: #ffffff;
   max-width: 25%;
   font-size: 1.5em;
@@ -121,7 +121,7 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   padding: 20px;
   width: 100%;
   text-align: center;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #800000;
 }
 
 form {
@@ -141,7 +141,7 @@ form {
   position: absolute;
   bottom: 35px;
   left: 30px;
-  background-color: #4aaaa5;
+  background-color: #800000;
   color: #ffffff;
   opacity: .8;
   padding: 15px 0px;
@@ -154,7 +154,7 @@ form {
 
 input[type=submit]{
   clear: both;
-  background-color: #4aaaa5;
+  background-color: #800000;
   color: #ffffff;
   text-align: center;
   font-family: 'Georgia', Times, Times New Roman, serif;

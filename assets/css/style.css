@@ -147,6 +147,7 @@ form {
   padding: 15px 0px;
   width: 250px;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bolder;
   text-align: center;
   float: left;
 }

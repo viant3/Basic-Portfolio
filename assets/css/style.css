@@ -124,6 +124,10 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   border-top: 8px solid #800000;
 }
 
+.padSection {
+  padding-bottom: 35px;
+}
+
 form {
   width: 85%;
   margin: 0 auto;

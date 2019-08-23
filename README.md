@@ -1,2 +1,4 @@
-# Bootstrap-Portfolio
-2nd homework assignment part 1 of 2
+# My Portfolio
+
+
+This is a portfolio page with links to my work.

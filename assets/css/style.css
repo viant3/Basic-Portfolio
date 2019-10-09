@@ -78,6 +78,10 @@ margin: 15px;
 
 }
 
+.footImg {
+  margin: 5px;
+}
+
 .roundCorner{
   border-radius: 10px;
 }
@@ -124,7 +128,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   bottom: 0;
   background-color: #666666;
   color: #777777;
-  padding: 20px;
+  padding: 1px;
   width: 100%;
   text-align: center;
   border-top: 8px solid #800000;
